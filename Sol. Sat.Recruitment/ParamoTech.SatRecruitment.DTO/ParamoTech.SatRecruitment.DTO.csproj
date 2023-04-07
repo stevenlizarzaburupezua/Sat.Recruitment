@@ -14,8 +14,6 @@
   <ItemGroup>
     <ProjectReference Include="..\ParamoTech.SatRecruitment.Common\ParamoTech.SatRecruitment.Common.csproj" />
     <ProjectReference Include="..\ParamoTech.SatRecruitment.Domain\ParamoTech.SatRecruitment.Domain.csproj" />
-    <ProjectReference Include="..\ParamoTech.SatRecruitment.Repository\ParamoTech.SatRecruitment.Repository.csproj" />
-    <ProjectReference Include="..\ParamoTech.SatRecruitment.Translator\ParamoTech.SatRecruitment.Translator.csproj" />
   </ItemGroup>
 
 </Project>

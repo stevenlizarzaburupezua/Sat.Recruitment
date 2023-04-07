@@ -7,12 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\" />
-    <Folder Include="Interface\Repository\" />
-    <Folder Include="VO\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Update="Resources\Constants.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>

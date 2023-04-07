@@ -1,9 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ParamoTech.SatRecruitment.Common\ParamoTech.SatRecruitment.Common.csproj" />
+    <ProjectReference Include="..\ParamoTech.SatRecruitment.Domain\ParamoTech.SatRecruitment.Domain.csproj" />
+    <ProjectReference Include="..\ParamoTech.SatRecruitment.DTO\ParamoTech.SatRecruitment.DTO.csproj" />
+    <ProjectReference Include="..\ParamoTech.SatRecruitment.Repository\ParamoTech.SatRecruitment.Repository.csproj" />
+    <ProjectReference Include="..\ParamoTech.SatRecruitment.Translator\ParamoTech.SatRecruitment.Translator.csproj" />
+  </ItemGroup>
 
 </Project>

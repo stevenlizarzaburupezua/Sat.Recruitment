@@ -23,27 +23,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParamoTech.Domain.Seedwork"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParamoTech.Repository.Seedwork", "ParamoTech.Repository.Seedwork\ParamoTech.Repository.Seedwork.csproj", "{347FB354-81ED-4F4F-BA01-FC9200579741}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParamoTech.SatRecruitment.Application", "ParamoTech.SatRecruitment.Application\ParamoTech.SatRecruitment.Application.csproj", "{9267768E-44C7-4B4F-B1D0-C3B6B667371A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParamoTech.SatRecruitment.Application", "ParamoTech.SatRecruitment.Application\ParamoTech.SatRecruitment.Application.csproj", "{9267768E-44C7-4B4F-B1D0-C3B6B667371A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParamoTech.SatRecruitment.DTO", "ParamoTech.SatRecruitment.DTO\ParamoTech.SatRecruitment.DTO.csproj", "{78B8FCE2-771E-429D-BA7E-B11FD890BDFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParamoTech.SatRecruitment.DTO", "ParamoTech.SatRecruitment.DTO\ParamoTech.SatRecruitment.DTO.csproj", "{78B8FCE2-771E-429D-BA7E-B11FD890BDFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParamoTech.SatRecruitment.Domain", "ParamoTech.SatRecruitment.Domain\ParamoTech.SatRecruitment.Domain.csproj", "{08C2251A-F92E-4065-9A27-70870B89991F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParamoTech.SatRecruitment.Domain", "ParamoTech.SatRecruitment.Domain\ParamoTech.SatRecruitment.Domain.csproj", "{08C2251A-F92E-4065-9A27-70870B89991F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cross Cutting", "Cross Cutting", "{7A72FE20-1BD4-4A81-A18E-A5A97229CA8F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{23066A54-A727-4EE8-B8B7-0DF83EAE0BE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParamoTech.SatRecruitment.Common", "ParamoTech.SatRecruitment.Common\ParamoTech.SatRecruitment.Common.csproj", "{0BEB3491-840B-4DD3-A6F1-A98E381C3187}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParamoTech.SatRecruitment.Common", "ParamoTech.SatRecruitment.Common\ParamoTech.SatRecruitment.Common.csproj", "{0BEB3491-840B-4DD3-A6F1-A98E381C3187}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParamoTech.SatRecruitment.DependencyResolver", "ParamoTech.SatRecruitment.DependencyResolver\ParamoTech.SatRecruitment.DependencyResolver.csproj", "{7EBE418F-78FF-481D-AFBD-669D0969E61F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParamoTech.SatRecruitment.Translator", "ParamoTech.SatRecruitment.Translator\ParamoTech.SatRecruitment.Translator.csproj", "{F04E946D-7650-41CA-9933-6A4D8B7741E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParamoTech.SatRecruitment.Translator", "ParamoTech.SatRecruitment.Translator\ParamoTech.SatRecruitment.Translator.csproj", "{F04E946D-7650-41CA-9933-6A4D8B7741E1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParamoTech.SatRecruitment.Repository", "ParamoTech.SatRecruitment.Repository\ParamoTech.SatRecruitment.Repository.csproj", "{FD9261FD-704A-4423-B697-7D5BF0E01AF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParamoTech.SatRecruitment.Repository", "ParamoTech.SatRecruitment.Repository\ParamoTech.SatRecruitment.Repository.csproj", "{FD9261FD-704A-4423-B697-7D5BF0E01AF5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAPI", "WebAPI", "{97478FF9-FEC1-40F3-80A8-9A6B7C29C0A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParamoTech.SatRecruitment.WebAPI", "ParamoTech.SatRecruitment.WebAPI\ParamoTech.SatRecruitment.WebAPI.csproj", "{6EFC6575-5E86-48A1-85EB-1A1636F1A09A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParamoTech.SatRecruitment.WebAPI", "ParamoTech.SatRecruitment.WebAPI\ParamoTech.SatRecruitment.WebAPI.csproj", "{6EFC6575-5E86-48A1-85EB-1A1636F1A09A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,10 +77,6 @@ Global
 		{0BEB3491-840B-4DD3-A6F1-A98E381C3187}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BEB3491-840B-4DD3-A6F1-A98E381C3187}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BEB3491-840B-4DD3-A6F1-A98E381C3187}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7EBE418F-78FF-481D-AFBD-669D0969E61F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7EBE418F-78FF-481D-AFBD-669D0969E61F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7EBE418F-78FF-481D-AFBD-669D0969E61F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7EBE418F-78FF-481D-AFBD-669D0969E61F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F04E946D-7650-41CA-9933-6A4D8B7741E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F04E946D-7650-41CA-9933-6A4D8B7741E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F04E946D-7650-41CA-9933-6A4D8B7741E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -115,7 +109,6 @@ Global
 		{7A72FE20-1BD4-4A81-A18E-A5A97229CA8F} = {E76498F8-24CB-4548-8A90-56B021DAC2E0}
 		{23066A54-A727-4EE8-B8B7-0DF83EAE0BE5} = {E76498F8-24CB-4548-8A90-56B021DAC2E0}
 		{0BEB3491-840B-4DD3-A6F1-A98E381C3187} = {7A72FE20-1BD4-4A81-A18E-A5A97229CA8F}
-		{7EBE418F-78FF-481D-AFBD-669D0969E61F} = {7A72FE20-1BD4-4A81-A18E-A5A97229CA8F}
 		{F04E946D-7650-41CA-9933-6A4D8B7741E1} = {7A72FE20-1BD4-4A81-A18E-A5A97229CA8F}
 		{FD9261FD-704A-4423-B697-7D5BF0E01AF5} = {23066A54-A727-4EE8-B8B7-0DF83EAE0BE5}
 		{97478FF9-FEC1-40F3-80A8-9A6B7C29C0A6} = {A652C85B-ADD5-487D-AD01-16E82A0ACBB8}

@@ -7,13 +7,28 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.6" />
+    <PackageReference Include="Refit" Version="6.0.38" />
+    <PackageReference Include="Serilog" Version="2.10.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="4.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.4.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="5.4.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="5.4.1" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Config\" />
     <Folder Include="Infrastructure\Swagger\XML\" />
     <Folder Include="Providers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ParamoTech.Application.Seedwork\ParamoTech.Application.Seedwork.csproj" />
+    <ProjectReference Include="..\ParamoTech.SatRecruitment.Application\ParamoTech.SatRecruitment.Application.csproj" />
+    <ProjectReference Include="..\ParamoTech.SatRecruitment.Common\ParamoTech.SatRecruitment.Common.csproj" />
   </ItemGroup>
 
 </Project>

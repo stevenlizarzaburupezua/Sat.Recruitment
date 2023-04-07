@@ -129,6 +129,24 @@
   <data name="NameRequired" xml:space="preserve">
     <value>The name is required</value>
   </data>
+  <data name="ParameterAddress" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="ParameterEmail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="ParameterName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ParameterPhone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="ParameterUserType" xml:space="preserve">
+    <value>UserType</value>
+  </data>
+  <data name="ParmeterMoney" xml:space="preserve">
+    <value>Money</value>
+  </data>
   <data name="PhoneRequired" xml:space="preserve">
     <value>The phone is required</value>
   </data>

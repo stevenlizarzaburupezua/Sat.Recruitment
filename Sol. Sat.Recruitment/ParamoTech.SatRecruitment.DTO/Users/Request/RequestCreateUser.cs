@@ -1,48 +1,30 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Xml.Linq;
 using ParamoTechDictionary = ParamoTech.SatRecruitment.Common.DictionaryLog;
+
 
 namespace ParamoTech.SatRecruitment.DTO.Users.Request
 {
     public class RequestCreateUser
     {
-        public string Name
-        {
-            get => Name;
-            set => Name = value ??
-                throw new ArgumentNullException(nameof(value), ParamoTechDictionary.NameRequired);
-        }
+        [Required (ErrorMessage = "The name is required")]
+        public string Name { get; set; }
 
-        public string Email
-        {
-            get => Email;
-            set => Email = value ??
-                throw new ArgumentNullException(nameof(value), ParamoTechDictionary.EmailRequired);
-        }
+        [Required(ErrorMessage = "The email is required")]
+        public string Email { get; set; }
 
-        public string Address
-        {
-            get => Address;
-            set => Address = value ??
-                throw new ArgumentNullException(nameof(value), ParamoTechDictionary.AddressRequired);
-        }
+        [Required(ErrorMessage = "The address is required")]
+        public string Address { get; set; }
 
-        public string UserType
-        {
-            get => UserType;
-            set => UserType = value ??
-                throw new ArgumentNullException(paramName: nameof(value), message: "New name must not be null");
-        }
+        [Required(ErrorMessage = "The phone is required")]
+        public string Phone { get; set; }
 
-        public string Money
-        {
-            get => Money;
-            set => Money = value ??
-                throw new ArgumentNullException(paramName: nameof(value), message: "New name must not be null");
-        }
+        public string UserType { get; set; }
+
+        public decimal Money { get; set; }
     }
 }

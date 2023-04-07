@@ -2,6 +2,7 @@
 using ParamoTech.SatRecruitment.Application.Interface;
 using Refit;
 using ParamoTech.SatRecruitment.DTO.Users.Request;
+using Swashbuckle.AspNetCore.Annotations;
 
 namespace ParamoTech.SatRecruitment.WebAPI.Controllers
 {
@@ -18,8 +19,7 @@ namespace ParamoTech.SatRecruitment.WebAPI.Controllers
         [HttpPost("user")]
         public async Task<IActionResult> CreateUser([Body] RequestCreateUser request)
         {
-            return Ok(await _usersService.CreateUser(request));
+            return Ok(await Task.Run(() => _usersService.CreateUser(request)));
         }
-
     }
 }

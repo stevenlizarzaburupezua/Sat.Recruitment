@@ -9,6 +9,6 @@ namespace ParamoTech.SatRecruitment.DTO.Global
         public bool IsSuccess { get; set; }
 
         [SwaggerSchema("Mensaje de validación o error.")]
-        public string Errors { get; set; }
+        public string? Errors { get; set; }
     }
 }

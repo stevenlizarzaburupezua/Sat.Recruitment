@@ -20,8 +20,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Config\" />
-    <Folder Include="Infrastructure\Swagger\XML\" />
     <Folder Include="Providers\" />
   </ItemGroup>
 

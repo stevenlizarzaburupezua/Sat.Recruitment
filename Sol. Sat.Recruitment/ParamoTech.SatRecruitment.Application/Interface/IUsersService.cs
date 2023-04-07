@@ -10,6 +10,6 @@ namespace ParamoTech.SatRecruitment.Application.Interface
 {
     public interface IUsersService
     {
-        Task<ResultResponse> CreateUser(RequestCreateUser request);
+        ResultResponse CreateUser(RequestCreateUser request);
     }
 }

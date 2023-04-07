@@ -29,7 +29,8 @@ namespace ParamoTech.SatRecruitment.Common {
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        
+        public DictionaryLog() {
+        }
         
         /// <summary>
         ///   Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
@@ -67,7 +68,7 @@ namespace ParamoTech.SatRecruitment.Common {
                 return ResourceManager.GetString("AddressRequired", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Busca una cadena traducida similar a User is duplicated.
         /// </summary>
@@ -92,6 +93,60 @@ namespace ParamoTech.SatRecruitment.Common {
         public static string NameRequired {
             get {
                 return ResourceManager.GetString("NameRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Address.
+        /// </summary>
+        public static string ParameterAddress {
+            get {
+                return ResourceManager.GetString("ParameterAddress", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Email.
+        /// </summary>
+        public static string ParameterEmail {
+            get {
+                return ResourceManager.GetString("ParameterEmail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Name.
+        /// </summary>
+        public static string ParameterName {
+            get {
+                return ResourceManager.GetString("ParameterName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Phone.
+        /// </summary>
+        public static string ParameterPhone {
+            get {
+                return ResourceManager.GetString("ParameterPhone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a UserType.
+        /// </summary>
+        public static string ParameterUserType {
+            get {
+                return ResourceManager.GetString("ParameterUserType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Money.
+        /// </summary>
+        public static string ParmeterMoney {
+            get {
+                return ResourceManager.GetString("ParmeterMoney", resourceCulture);
             }
         }
         

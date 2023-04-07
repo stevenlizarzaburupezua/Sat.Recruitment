@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ParamoTech.Infrastructure\ParamoTech.SatRecruitment.Infrastructure.csproj" />
     <ProjectReference Include="..\ParamoTech.SatRecruitment.Common\ParamoTech.SatRecruitment.Common.csproj" />
     <ProjectReference Include="..\ParamoTech.SatRecruitment.Domain\ParamoTech.SatRecruitment.Domain.csproj" />
     <ProjectReference Include="..\ParamoTech.SatRecruitment.DTO\ParamoTech.SatRecruitment.DTO.csproj" />
